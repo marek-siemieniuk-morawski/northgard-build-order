@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './northgard-logo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Create <b>a build order</b> and save to share.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/marek-siemieniuk-morawski/northgard-build-order"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn More
-        </a>
+      <header aria-label='header'>
+        <button className='header-clan'>Clan</button>
       </header>
+      <aside aria-label='sidebar'>
+        <div className='aside-tab'>
+          <button className='aside-tablink'>1</button>
+          <button className='aside-tablink'>2</button>
+          <button className='aside-tablink'>3</button>
+          <button className='aside-tablink'>4</button>
+          <button className='aside-tablink'>5</button>
+        </div>
+        <div className='aside-tabcontent'>Tabconent</div>
+      </aside>
+      <main>Main</main>
     </div>
   );
 }
