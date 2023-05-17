@@ -1,0 +1,36 @@
+.Timeline {
+  width: 100%;
+  display: flex;
+}
+
+.Timeline-year {
+  display: flex;
+}
+
+.Timeline-month {
+  width: fit-content;
+}
+
+.Timeline-month-weather {
+  height: 40px;
+  background: #e3e6eb;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Timeline-month-timeline-snapping-grid {
+  height: 40px;
+  background: #e3e6eb;
+  display: flex;
+}
+
+.Timeline-month-timeline-snapping-grid-interval:hover {
+  background: rgb(255, 187, 0);
+}
+
+.Timeline-month-timeline-snapping-grid-interval {
+  height: 100%;
+  width: 10px;
+}
